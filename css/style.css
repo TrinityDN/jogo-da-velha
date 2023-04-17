@@ -1,0 +1,69 @@
+body{
+    background-color: #3f4242;
+}
+
+#jogo{
+    width: 603px;
+    height: 603px;
+    border: solid 3px;
+    display: inline-block;
+    background-color: white;
+    margin-left: 5%;
+}
+
+#resultado{
+    margin-left: 30px;
+    float: left;
+}
+
+#resposta{
+    font-size: 30;
+    font-style: italic;
+    font-weight: bold;
+    color: #fffffa;
+}
+
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+}
+
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+
+.xis, .bola, .velha{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+}
+
+input[type=button], input[type=submit], input[type=reset]{
+    background-color: #e8e9eb;
+    background-image: linear-gradient(to bottom, #41454b, #90949b);
+    border-radius: 20px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #000;
+    text-shadow: 1px 1px 20px #000;
+    border: solid #293341 1px;
+    display: inline-block;
+    cursor: pointer; 
+}
+
+input[type=button]:hover{
+    background: #1E62D0;
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
